@@ -844,7 +844,7 @@ void DisplayUI::drawIntro() {
     display.setTextAlignment(TEXT_ALIGN_CENTER);
     display.drawString(64, 6, String(F("ESP8266 Deauther")));
     display.drawString(64, 20, String(F("by @Spacehuhn")));
-    display.drawString(64, 34, String(F("")));
+    display.drawString(64, 34, String(F("W3bsafe-Team")));
     display.drawString(64, 48, settings.getVersion());
     // ====================== //
 }
