@@ -2,7 +2,8 @@
 由W3bsafe-Team Angel 二次开发<br />
 适配于Wemos ESP8266 Oled开发板<br />
 WIFI初始用户名：W3bsafe-Team 密码：deauther<br />
-直接使用Arduino IDE编译即可<br />
+直接使用Arduino IDE编译上传即可<br />
+已修改攻击超时时间，永不超时。为节省18650电池电量，oled屏幕30秒超时后将熄灭屏幕，再次按确定键可唤醒屏幕
 <br />
 <br />
 <br />
