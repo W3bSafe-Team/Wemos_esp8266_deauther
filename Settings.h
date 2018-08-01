@@ -114,9 +114,9 @@ class Settings {
         bool ledEnabled       = true;
         bool serialEcho       = true;
 
-        uint32_t attackTimeout    = 600;
+        uint32_t attackTimeout    = 0;
         uint32_t autosaveTime     = 10000;
-        uint32_t displayTimeout   = 600;
+        uint32_t displayTimeout   = 30;
         uint16_t deauthsPerTarget = 20;
         uint16_t chTime           = 384;
         uint16_t minDeauths       = 3;
@@ -132,7 +132,7 @@ class Settings {
         String password    = "deauther";
         bool hidden        = false;
         bool captivePortal = true;
-        String lang        = "en";
+        String lang        = "cn";
 
         String FILE_PATH = "/settings.json";
 
